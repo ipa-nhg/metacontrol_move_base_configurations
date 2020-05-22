@@ -12,8 +12,8 @@
 		<param name="TrajectoryPlannerROS/max_vel_y" value="0.5" />
 		<param name="TrajectoryPlannerROS/acc_lim_x" value="6.0" />
 		<param name="TrajectoryPlannerROS/acc_lim_y" value="6.0" />
-		<param name="local_costmap/inflater_layer/inflation_radius" value="0.45" />
-		<param name="global_costmap/inflater_layer/inflation_radius" value="0.45" />
+		<param name="local_costmap/inflater_layer/inflation_radius" value="0.65" />
+		<param name="global_costmap/inflater_layer/inflation_radius" value="0.65" />
 	</node>
 
 </launch>
