@@ -13,6 +13,6 @@ RosSystem { Name 'f1_v1_r2'  RosComponents (
             RosParameter 'inflation_radius' { RefParameter 'move_base.move_base.move_base.global_costmap/inflater_layer/inflation_radius' value 0.65}
     }})
     Parameters {
-        Parameter { name qa_safety type Double value 0.0},
-        Parameter { name qa_energy type Double value 0.0}}
+        Parameter { name qa_safety type Double value 0.7},
+        Parameter { name qa_energy type Double value 0.33}}
     }
