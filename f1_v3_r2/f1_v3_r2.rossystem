@@ -10,7 +10,9 @@ RosSystem { Name 'f1_v3_r2'  RosComponents (
             RosParameter 'acc_lim_x' { RefParameter 'move_base.move_base.move_base.TrajectoryPlannerROS/acc_lim_x' value 9.00},
             RosParameter 'acc_lim_y' { RefParameter 'move_base.move_base.move_base.TrajectoryPlannerROS/acc_lim_y' value 9.00},
             RosParameter 'inflation_radius' { RefParameter 'move_base.move_base.move_base.local_costmap/inflater_layer/inflation_radius' value 0.65},
-            RosParameter 'inflation_radius' { RefParameter 'move_base.move_base.move_base.global_costmap/inflater_layer/inflation_radius' value 0.65}
+            RosParameter 'inflation_radius' { RefParameter 'move_base.move_base.move_base.global_costmap/inflater_layer/inflation_radius' value 0.65},
+            RosParameter 'observation_sources' { RefParameter 'move_base.move_base.move_base.local_costmap/obstacles_layer/observation_sources' value scan},
+            RosParameter 'observation_sources' { RefParameter 'move_base.move_base.move_base.global_costmap/obstacles_layer/observation_sources' value scan}
     }})
     Parameters {
         Parameter { name qa_safety type Double value 0.27},
